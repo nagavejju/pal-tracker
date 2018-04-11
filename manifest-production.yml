@@ -3,5 +3,8 @@ applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   host: rao-pal-tracker
+  services:
+  - tracker-database
   env:
-      WELCOME_MESSAGE: HELLO
+   WELCOME_MESSAGE: HELLO
+   SECURITY_FORCE_HTTPS: true
