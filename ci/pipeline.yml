@@ -60,9 +60,22 @@ jobs:
 - name: deploy-review
   plan:
   - get: pal-tracker
+    passed: [build]
   - get: pal-tracker-artifacts
     trigger: true
     passed: [build]
+  - task: migrate database
+    file: pal-tracker/ci/migrateDatabase.yml
+    params:
+      CF_API_URL: https://api.sys.longs.pal.pivotal.io
+      CF_USERNAME: nageswararao.vejja@wellsfargo.com
+      CF_PASSWORD: nuq38g9c
+      CF_ORG: nageswara-rao-vejja
+      CF_SPACE: review
+      MYSQL_IP: 192.168.16.98
+      DATABASE_NAME: cf_da23c93d_0709_4722_8fb2_5fff928fe7b3
+      DATABASE_USERNAME: ofQPQ9xGIBYSIOyP
+      DATABASE_PASSWORD: JHhSR4CeQl4c5coh
   - put: review-deployment
     params:
       manifest: pal-tracker/manifest-review.yml
@@ -73,8 +86,21 @@ jobs:
 - name: deploy-production
   plan:
   - get: pal-tracker
+    passed: [deploy-review]
   - get: pal-tracker-artifacts
     passed: [deploy-review]
+  - task: migrate database
+    file: pal-tracker/ci/migrateDatabase.yml
+    params:
+      CF_API_URL: https://api.sys.longs.pal.pivotal.io
+      CF_USERNAME: nageswararao.vejja@wellsfargo.com
+      CF_PASSWORD: nuq38g9c
+      CF_ORG: nageswara-rao-vejja
+      CF_SPACE: review
+      MYSQL_IP: 192.168.16.98
+      DATABASE_NAME: cf_0df0b3bf_d163_4cea_a165_be75f46c8a05
+      DATABASE_USERNAME: UhENA7qde02UB6BF
+      DATABASE_PASSWORD: pOrtgyCY8ZbGgWDx
   - put: production-deployment
     params:
       manifest: pal-tracker/manifest-production.yml
