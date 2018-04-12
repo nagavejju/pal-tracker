@@ -1,3 +1,6 @@
+https://des-moines-2018-04.pal.pivotal.io/prerequisites/prerequisites/index.html
+https://platform-acceleration-lab-links.cfapps.io/
+https://des-moines-2018-04.pal.pivotal.io/index.html
     1  cd ~/Downloads/
     2  chmod +x ubuntu_install.sh
     3  ./ubuntu_install.sh
