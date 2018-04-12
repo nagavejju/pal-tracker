@@ -216,3 +216,533 @@ https://des-moines-2018-04.pal.pivotal.io/index.html
   213  git commit -a -m "added env variables"
   214  git push
   215  history
+
+  =====================================================================================================================================
+   1  sudo apt update
+      2  sudo apt -y upgrade
+      3  sudo apt -y autoremove
+      4  reboot
+      5  chmod +x ~/Downloads/ubuntu_install.sh
+      6  ~/Downloads/./ubuntu_install.sh
+      7  source /.bashrc
+      8  source ~/.bashrc
+      9  rm -rf ~/dev/idea/
+     10  cd ~/Downloads/
+     11  ls
+     12  rm ubuntu_install.sh
+     13  ls
+     14  rm idea.json
+     15  rm idea.tar.gz
+     16  ls
+     17  chmod +x ubuntu_install.sh
+     18  ./ubui
+     19  ./ubuntu_install.sh
+     20  rm -rf ~/dev/idea/
+     21  cd ~/dev/
+     22  ls
+     23  cd ~/Downloads/
+     24  ls
+     25  rm ubuntu_install.sh
+     26  rm idea.tar.gz
+     27  rm idea.json
+     28  k
+     29  chmod +x ubuntu_install.sh
+     30  \
+     31  ./ubuntu_install.sh
+     32  ls
+     33  cd ~/workspace
+     34  git clone https://github.com/platform-acceleration-lab/prerequisite-code.git
+     35  cd prerequisite-code/
+     36  java -version
+     37  ./gradlew build
+     38  ls
+     39  cd ..
+     40  ls
+     41  cd ..
+     42  ls
+     43  cf help
+     44  cf login -a api.run.pivotal.io
+     45  cf login -a https://api.sys.longs.pal.pivotal.io
+     46  cd ~workspace
+     47  ls
+     48  cd workspace
+     49  ls
+     50  cd prerequisite-code/
+     51  ls
+     52  ./gradlew build
+     53  cf push
+     54  ./gradlew prerequisites -PprerequisiteUrl=http://${http://prerequisite-fluent-wombat.apps.longs.pal.pivotal.io/}
+     55  ./gradlew prerequisites -PprerequisiteUrl=http://prerequisite-fluent-wombat.apps.longs.pal.pivotal.io/
+     56  ./gradlew prerequisites --info -PprerequisiteUrl=http://prerequisite-fluent-wombat.apps.longs.pal.pivotal.io/
+     57  apt search MySQL
+     58  apt search Flyway
+     59  apt search Graphviz
+     60  ls
+     61  idea
+     62  cd ..
+     63  ls
+     64  mkdir use-gradle
+     65  ls
+     66  cd use-gradle/
+     67  gradle wrapper
+     68  ./gradlew tasks
+     69  vi build.gradle
+     70  cd workspace/use-gradle/
+     71  ./gradlew sayHello
+     72  ./gradlew tasks
+     73  ./gradlew tasks --all
+     74  ./gradlew tasks
+     75  ./gradlew sayHello
+     76  ./gradlew sayHello sayGoodbye
+     77  ./gradlew sayH sGood
+     78  ./gradlew bye hello
+     79  ./gradlew sH sG
+     80  ./gradlew sG SH
+     81  ./gradlew sG SG
+     82  ./gradlew sG sH
+     83  ./gradlew sayGood sayHell
+     84  ./gradlew sayHello sayGoodbye
+     85  ./gradlew sayHello
+     86  ./gradlew sayGood
+     87  ./gradlew sayH sG
+     88  ./gradlew sayG
+     89  cd ..
+     90  mkdir -p advanced-gradle
+     91  ls
+     92  cd advanced-gradle/
+     93  touch build.gradle
+     94  gradle wrapper
+     95  idea
+     96  idea .
+     97  gradlew tasks
+     98  ./gradlew tasks
+     99  ./gradlew clean build --dry-run
+    100  ./gradlew test
+    101  cd ..
+    102  mkdir pal-tracker
+    103  cd pal-tracker/
+    104  touch build.gradle
+    105  cd ..
+    106  git clone
+    107  git clone https://github.com/manish.shah@wellsfargo.com/Spoon-Knife
+    108  git clone https://github.com/scottfistler@wellsfargo.com/Spoon-Knife
+    109  git clone https://github.com/manish-in-training/Spoon-Knife
+    110  git clone https://github.com/manish-in-training/pal-tracker
+    111  git clone https://github.com/manish-in-training/Spoon-Knife/
+    112  git clone
+    113  git clone https://github.com/manish-in-training/pal-tracker.git
+    114  rd pal-traker
+    115  rmdir pal-tracker
+    116  cd pal-tracker/
+    117  dir
+    118  del build.gradle
+    119  rem build.gradle
+    120  del build.gradle
+    121  cd..
+    122  cd ..
+    123  cd /
+    124  cd workspace
+    125  ls
+    126  cd
+    127  ls
+    128  cd workspace
+    129  git clone https://github.com/manish-in-training/pal-tracker.git
+    130  cd pal-tracker/
+    131  ls
+    132  gradle wrapper
+    133  idea .
+    134  touch build.gradle
+    135  idea .
+    136  gradle wrapper
+    137  idea .
+    138  exit
+    139  cd ~/workspace/pal-tracker/
+    140  git status
+    141  exit
+    142  cd ~/workspace/pal-tracker/
+    143  ./gradlew clean compileTestJava
+    144  clear
+    145  ./gradlew clean compileTestJava
+    146  ./gradlew clean build
+    147  git status
+    148  ./gradlew clean build
+    149  clear
+    150  cf push
+    151  cd ..
+    152  cd assignment-submission/
+    153  ./gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-fearless-wildebeest.apps.longs.pal.pivotal.io/
+    154  ./gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-fearless-wildebeest.apps.longs.pal.pivotal.io/ --stacktrace
+    155  ./gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-fearless-wildebeest.apps.longs.pal.pivotal.io/
+    156  cf apps
+    157  cf routes
+    158  ./gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-fearless-wildebeest.apps.longs.pal.pivotal.io/
+    159  cd ~/dev/idea/bin
+    160  ./idea.sh
+    161  cd workspace/
+    162  cd
+    163  ls
+    164  cd work
+    165  cd workspace/
+    166  ls
+    167  cd use-gradle/
+    168  touch build.gradle
+    169  ls
+    170  idea .
+    171  cd ..
+    172  cd pal-tracker/
+    173  gradlew tasks
+    174  ./gradlew tasks
+    175  ./gradlew bootRun
+    176  cf login --help
+    177  ./gradlew tasks
+    178  ./gradlew build
+    179  cf login
+    180  push
+    181  cf push
+    182  ./gradlew tasks
+    183  ./gradlew build
+    184  cf push
+    185  cf push pal-tracker
+    186  cf push
+    187  gradlew build
+    188  ./gradlew build
+    189  cf push
+    190  ./gradlew build
+    191  cf push
+    192  cf push pal-tracker
+    193  cf login
+    194  cf push pal-tracker --random-route
+    195  cf login
+    196  cf push pal-tracker --random-route
+    197  ./gradlew clean build
+    198  cf push pal-tracker --random-route
+    199  cf push --help
+    200  cfpush -p ./build/libs/pal-tracker.jar --random-route
+    201  cf push pal-tracker -p ./build/libs/pal-tracker.jar --random-route
+    202  cd ~workspace/assignment-submission
+    203  cd ..
+    204  cd assignment-submission
+    205  cd pal-tracker/
+    206  ./gradlew cloudNativeDeveloperSimpleApp
+    207  ./gradlew tasks
+    208  ./gradlew clean build
+    209  ls
+    210  ./gradlew clean build
+    211  git cherry-pick deployment-start
+    212  git --help
+    213  git commit
+    214  git config manish-in-training commit
+    215  git config --global user.name manish-in-training commit
+    216  git commit
+    217  git cherry-pick deployment-start
+    218  git config --global user.name manish-in-training
+    219  git commit
+    220  git config --global user.email gaiamech@gmail.com
+    221  git commit -m "go"
+    222  git cherry-pick deployment-start
+    223  ./gradlew bootRun
+    224  ./gradlew --help
+    225  cf env
+    226  cf env pal-tracker
+    227  ./gradlew bootRun
+    228  ./gradlew tasks
+    229  ./gradlew bootRun
+    230  ./gradlew clean build
+    231  cf push pal-tracker -p build/libs/pal-tracker.jar --randome-route
+    232  cf push pal-tracker -p build/libs/pal-tracker.jar --random-route
+    233  cf logs --recent pal-tracker
+    234  cf set-env pal-tracker WELCOME_MESSAGE "Hello Wells Fargo from Cloud Foundry"
+    235  cf restage pal-tracker
+    236  cf app pal-tracker
+    237  cf scale pal-tracker -m 768M -f
+    238  cf scale pal-tracker -i 2
+    239  cf app pal-tracker
+    240  cf delete pal-tracker
+    241  cf push
+    242  git commit
+    243  git commit -r updates
+    244  git commit -m updates
+    245  git push
+    246  git fetch
+    247  -git pull
+    248  git pull
+    249  git commit
+    250  ./gradlew clean build
+    251  git push
+    252  git remote -v
+    253  git push -f
+    254  cf map-route pal-tracker ${DOMAIN} --hostname pal-tracker-${INITIALS}-dev
+    255  cf map-route pal-tracker wfdev.com --hostname pal-tracker-wf-dev
+    256  cf domains
+    257  cf map-route pal-tracker apps.longs.pal.pivotal.io --hostname pal-tracker-wf-dev
+    258  cf domins
+    259  cf domains
+    260  cf app pal-tracker
+    261  ./gradlew tasks
+    262  cd ..
+    263  ls
+    264  mkdir -p assignment-submission
+    265  cd assignment-submission/
+    266  gradle wrapper
+    267  touch build.gradle
+    268  idea .
+    269  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=http://pal-tracker-wf-dev.apps.longs.pal.pivotal.io
+    270  ./gradlew testAssignment -P
+    271  ./gradlew testAssignment -PexampleUrl=http://google.com
+    272  ./gradlew testAssignment -PexampleUrl=http://www.example.com
+    273  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=http://pal-tracker-wf-dev.apps
+    274  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=http://pal-tracker-wf-dev.apps.longs.pal.pivotal.io/
+    275  cd ..
+    276  cd pal-tracker/
+    277  cf push
+    278  cd ..
+    279  cd assignment-submission/
+    280  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=http://pal-tracker-wf-dev.apps.longs.pal.pivotal.io/
+    281  cd ..
+    282  cd pal-tracker/
+    283  git cherry-pick pipeline-start
+    284  ssh-keygen
+    285  view /home/pal_user/.ssh/id_rsa.pub
+    286  cd ..
+    287  cd /home/downloads
+    288  pwd
+    289  cd ..
+    290  cd downloads
+    291  cd pal_user/Downloads
+    292  ls
+    293  fly set-pipeline
+    294  apt fly
+    295  apt install fly
+    296  install ~/Downloads/fly /usr/local/bin
+    297  fly
+    298  ls
+    299  ./fly
+    300  chmod u+x fly
+    301  ./fly
+    302  install ~/Downloads/fly /usr/local/bin
+    303  ./fly
+    304  fly --target pal-concourse login --concourse-url https://concourse.longs.pal.pivotal.io --team-name manish-shah
+    305  ls -l
+    306  ./fly --target pal-concourse login --concourse-url https://concourse.longs.pal.pivotal.io --team-name manish-shah
+    307  view aws-access-key-id: YOUR_ACCESS_KEY
+    308  view /home/pal_user/.ssh/id_rsa
+    309  cd ..
+    310  cd workspace/pal-tracker/
+    311  git --global user.name "nagavejju"
+    312  git config --global user.name "nagavejju"
+    313  git config --global user.email "nages_vejju@yahoo.com"
+    314  git commit -a -m "ading concourse related files"
+    315  git push
+    316  cd ..
+    317  git clone https://github.com/nagavejju/pal-tracker.git
+    318  git reset --hard origin/master
+    319  cd pal-tracker
+    320  git reset --hard origin/master
+    321  git commit -a -m "ading concourse related files"
+    322  git push
+    323  fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c
+    324  cd ..
+    325  ls
+    326  cd Dowloads
+    327  cd Downloads
+    328  ./fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c
+    329  cd ..
+    330  cd workspace/pal-tracker/
+    331  ./fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c
+    332  fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+    333  ./fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+    334  ssh-keygen
+    335  view /home/pal_user/.ssh/id_rsa
+    336  view /home/pal_user/.ssh/id_rsa.pub
+    337  ./fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+    338  ls
+    339  git status
+    340  gradle wrapper
+    341  git status
+    342  git commit -a -m "ading concourse related files"
+    343  git status
+    344  git push
+    345  git status
+    346  git commit -a -m "ading concourse related files"
+    347  git push
+    348  cf create-space review
+    349  cf target
+    350  cf create-space review
+    351  cf create-space production
+    352  git commit -a -m "ading concourse related files"
+    353  git push
+    354  git commit -a -m "ading concourse related files"
+    355  git push
+    356  cd ..
+    357  cd assignment-submission/
+    358  ./gradlew cloudNativeDeveloperPipelines -PreviewUrl=http://ms-pal-tracker-review.apps.longs.pal.pivotal.io/ -PproductionUrl=http://ms-pal-tracker.apps.longs.pal.pivotal.io/
+    359  cd ..
+    360  cd pal-tracker/
+    361  clear
+    362  git cherry-pick mvc-start
+    363  ./gradlew clean compileTestJava
+    364  gradle wrapper
+    365  ./gradlew clean compileTestJava
+    366  ls
+    367  cd src/main/java/io/pivotal/pal/tracker/
+    368  ls
+    369  ls -ao
+    370  ls -al
+    371  rm TimeEntry.java
+    372  ls -al
+    373  git status
+    374  git rm TimeEntry.java
+    375  ls -al
+    376  git status
+    377  idea start
+    378  idea .
+    379  cd \
+    380  cd /
+    381  pwd
+    382  cd home
+    383  cd pal_user/
+    384  cd workspace/
+    385  cd pal-tracker/
+    386  pwd
+    387  rm -rf .idea
+    388  ls -al
+    389  idea .
+    390  cd
+    391  ls -al
+    392  rm -rf .idea
+    393  rm -rf .IdeaIC2017.3/
+    394  which idea
+    395  ls -al /usr/local/bin/idea
+    396  rm /usr/local/bin/idea
+    397  cd Downloads/idea
+    398  ls
+    399  cd idea-IC-173.4674.33/
+    400  ls
+    401  cd bin
+    402  ls
+    403  ./idea.sh
+    404  cd ..
+    405  cd
+    406  pwd
+    407  ls
+    408  cd Downloads/
+    409  ls
+    410  ./ubuntu_install.sh
+    411  cf create-space production
+    412  cf login -a https://api.sys.longs.pal.pivotal.io
+    413  cd workspace/pal-tracker/
+    414  cf push
+    415  git cherry-pick migration-start
+    416  git commit -a -m "ading spring mvc files"
+    417  git push
+    418  git cherry-pick migration-start
+    419  git cherry-pick -h
+    420  ./fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+    421  cd workspace/pal-tracker/
+    422  fly -t pal-concourse unpause-pipeline -p pal-tracker
+    423  ./fly -t pal-concourse unpause-pipeline -p pal-tracker
+    424  ./fly --target pal-concourse login --concourse-url https://concourse.longs.pal.pivotal.io --team-name nageswara-rao-vejja
+    425  ./fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+    426  ./fly -t pal-concourse unpause-pipeline -p pal-tracker
+    427  cf create-space production
+    428  cf marketplace
+    429  cf target -s review
+    430  cf create-service p-mysql  p-mysql tracker-database
+    431  cf target -s production
+    432  cf create-service p-mysql  p-mysql tracker-database
+    433  cf target -s review
+    434  cf bind-service pal-tracker tracker-database
+    435  cf target -s production
+    436  cf bind-service pal-tracker tracker-database
+    437  git commit -a -m "ading services"
+    438  git push
+    439  cf target -s review
+    440  cf env pal-tracker
+    441  cf target -s production
+    442  cf env pal-tracker
+    443  ./fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+    444  ./fly --target pal-concourse login --concourse-url https://concourse.longs.pal.pivotal.io --team-name nageswara-rao-vejja
+    445  ./fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+    446  git commit -a  -m "database services related changes"
+    447  git push
+    448  ./gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://rao-pal-tracker.apps.longs.pal.pivotal.io/
+    449  cd ..
+    450  cd assignment-submission/
+    451  ./gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://rao-pal-tracker.apps.longs.pal.pivotal.io/
+    452  cd ..
+    453  cd pal-tracker/
+    454  git status
+    455  git add .gitignore
+    456  git status
+    457  git commit -m "updated gitignore with /out"
+    458  git push
+    459  git remote -v
+    460  git remote --help
+    461  git remote add pat https://github.com/phanes72/pal-tracker
+    462  git remote -v
+    463  git push pat master
+    464  git pull pat master
+    465  git remote -v
+    466  git push pat master
+    467  git commit -a -m "updated .gitignore"
+    468  git push
+    469  git push pat master
+    470  git cherry-pick jdbc-start
+    471  ./gradlew clean build
+    472  git -a -m "Added Spring JDBC Template"
+    473  git commit -a -m "Added Spring JDBC Template"
+    474  git push
+    475  git remote pat master
+    476  git push pat master
+    477  cd ..
+    478  cd assignment-submission/
+    479  ./gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://rao-pal-tracker-review.apps.longs.pal.pivotal.io/
+    480  ./gradlew cloudNativeDeveloperDatabaseAccess -PserverUrl=https://rao-pal-tracker-review.apps.longs.pal.pivotal.io/
+    481  cf ssh --help
+    482  cd ..
+    483  cd pal-tracker/
+    484  clear
+    485  git cherry-pick actuator-start
+    486  ./gradlew clean build
+    487  git -a -m "added spring actuator related files"
+    488  git commit -a -m "added spring actuator related files"
+    489  git push
+    490  git push pal master
+    491  git push pat master
+    492  cf target -s production
+    493  cf set-env pal-tracker MANAGEMENT_SECURITY_ENABLED false
+    494  cf restage pal-tracker
+    495  cd ../assignment-submission/
+    496  ./gradlew cloudNativeDeveloperHealthMonitoring -PserverUrl=https://rao-pal-tracker.apps.longs.pal.pivotal.io/
+    497  cd ../pal-tracker/
+    498  git status
+    499  git commit -a -m "added spring actuator related files"
+    500  git push
+    501  git commit -a -m "added spring actuator related files"
+    502  git push
+    503  git push pat master
+    504  ./gradlew clean build
+    505  git cherry-pick security-start
+    506  ./gradlew bootRun
+    507  clear
+    508  ./gradlew clean build
+    509  ./gradlew bootRun
+    510  git commit -a -m 'Added Spring Security'
+    511  git push
+    512  git push pat master
+    513  cd ../assignment-submission/
+    514  ./gradlew cloudNativeDeveloperBasicAuth -PserverUrl=https://rao-pal-tracker.apps.longs.pal.pivotal.io/
+    515  cf target -s review
+    516  cf delete --help
+    517  cd ../pal-tracker/
+    518  cf target -s review
+    519  cf delete pal-tracker
+    520  cf delete-service tracker-database
+    521  cf target -s production
+    522  cf delete pal-tracker
+    523  cf delete-service tracker-database
+    524  git status
+    525  git commit -a -m 'Added links'
+    526  git push
+    527  git push pat master
+    530  history
