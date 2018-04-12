@@ -73,9 +73,9 @@ jobs:
       CF_ORG: nageswara-rao-vejja
       CF_SPACE: review
       MYSQL_IP: 192.168.16.98
-      DATABASE_NAME: cf_da23c93d_0709_4722_8fb2_5fff928fe7b3
-      DATABASE_USERNAME: ofQPQ9xGIBYSIOyP
-      DATABASE_PASSWORD: JHhSR4CeQl4c5coh
+      DATABASE_NAME: cf_95d13d9d_234f_4e73_b943_2df52ee6e621
+      DATABASE_USERNAME: 9qR9jFdR6K3RboY8
+      DATABASE_PASSWORD: Ha1VkD2UQ95aHTIq
   - put: review-deployment
     params:
       manifest: pal-tracker/manifest-review.yml
@@ -98,9 +98,9 @@ jobs:
       CF_ORG: nageswara-rao-vejja
       CF_SPACE: review
       MYSQL_IP: 192.168.16.98
-      DATABASE_NAME: cf_0df0b3bf_d163_4cea_a165_be75f46c8a05
-      DATABASE_USERNAME: UhENA7qde02UB6BF
-      DATABASE_PASSWORD: pOrtgyCY8ZbGgWDx
+      DATABASE_NAME: cf_ded934d1_efe1_46f5_8c81_45d29a064efd
+      DATABASE_USERNAME: ikJyaMxSDi9N5kne
+      DATABASE_PASSWORD: IDyyIXg6BCZSfe4S
   - put: production-deployment
     params:
       manifest: pal-tracker/manifest-production.yml
