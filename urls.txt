@@ -1,0 +1,4 @@
+https://content.pivotal.io/blog/how-to-add-your-service-to-cloud-foundry-architecture-code-boilerplate-and-mongodb-example
+https://github.com/cloudfoundry-community
+https://content.pivotal.io/blog/cloudfoundry-performance-acceptance-tests
+https://www.cloudfoundry.org/blog/new-performance-testing-tool-added-to-the-cloud-foundry-incubator/
