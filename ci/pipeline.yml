@@ -68,7 +68,7 @@ jobs:
     file: pal-tracker/ci/migrateDatabase.yml
     params:
       CF_API_URL: https://api.sys.longs.pal.pivotal.io
-      CF_USERNAME: nageswararao.vejja@wellsfargo.com
+      CF_USERNAME:
       CF_PASSWORD: nuq38g9c
       CF_ORG: nageswara-rao-vejja
       CF_SPACE: review
